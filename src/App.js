@@ -1,9 +1,8 @@
 
-import React,{useState} from "react"
-
-
+import React,{useState} from "react";
 
 import "./App.css"
+import TodoList from "./TodoList";
 function App (){
 
 // state variable
@@ -38,7 +37,7 @@ setInputList("");
           <button onClick={listOfItems}>+</button>
           <ol>
            { items.map((val)=>{
-             return <li>{val}</li>
+              return <TodoList  text={val}/>
             })}
           </ol>
       </div>
