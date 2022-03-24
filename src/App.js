@@ -25,6 +25,17 @@ setInputList("");
 }
 
 
+const deleteItems=(id)=>{
+  console.log("deleted");
+
+  setItems((items)=>{
+    return items.filter((elem,index)=>{
+      return index!==id;
+    })
+  })
+}
+
+
 
   return (
 <div>
@@ -36,8 +47,8 @@ setInputList("");
           <input type="text" placeholder="Add Items" value={inputList} onChange={itemEvents}/>
           <button onClick={listOfItems}>+</button>
           <ol>
-           { items.map((val)=>{
-              return <TodoList  text={val}/>
+           { items.map((val,index)=>{
+              return <TodoList key={index}  id={index} text={val} onSelect={deleteItems}/>
             })}
           </ol>
       </div>
