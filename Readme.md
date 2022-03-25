@@ -78,7 +78,7 @@ HTML
 ![SCREENSHOT](.png)
 
 # GIT_HUB-REPOSITORY
-[GIT-HUB](https://github.com/nehreetkaur/React-calc)
+[GIT-HUB](https://github.com/nehreetkaur/react-Project)
 
 # Heroku-Deployed-Link
 [Heroku](https://calc-rectapp.herokuapp.com/)
