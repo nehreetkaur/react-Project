@@ -75,10 +75,12 @@ HTML
 
 
 # SCREENSHOT
-![SCREENSHOT](.png)
+![SCREENSHOT](react-todo1.png)
+
+![SCREENSHOT](react-todo2.png)
 
 # GIT_HUB-REPOSITORY
 [GIT-HUB](https://github.com/nehreetkaur/react-Project)
 
 # Heroku-Deployed-Link
-[Heroku](https://calc-rectapp.herokuapp.com/)
+[Heroku](https://react-todolist-proj.herokuapp.com/)
